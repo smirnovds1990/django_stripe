@@ -5,6 +5,7 @@
 git clone https://github.com/smirnovds1990/django_stripe.git
 # Перейдите внутрь проекта
 cd django_stripe
+# Создайте файл .env и установите в нем переменные согласно .env.example
 # Запустите контейнер
 docker compose up --build
 # Перейдите на http://0.0.0.0:8000/admin/
